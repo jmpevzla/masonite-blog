@@ -1,0 +1,6 @@
+{% for post in posts %}
+    {{ post.title }} by {{ post.author.name }}
+    <br />
+    {{ post.body }}
+    <hr />
+{% endfor %}
